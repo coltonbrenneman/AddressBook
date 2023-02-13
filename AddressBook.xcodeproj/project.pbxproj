@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4467C216299AE75700496AC5 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4467C215299AE75700496AC5 /* Person.swift */; };
+		4467C218299AE76300496AC5 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4467C217299AE76300496AC5 /* Group.swift */; };
+		4467C21B299AE9AE00496AC5 /* Person Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4467C21A299AE9AE00496AC5 /* Person Controller.swift */; };
+		4467C21D299AEEB700496AC5 /* Group Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4467C21C299AEEB700496AC5 /* Group Controller.swift */; };
 		F7FB3DE527163FDB0091D1B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FB3DE427163FDB0091D1B1 /* AppDelegate.swift */; };
 		F7FB3DE727163FDB0091D1B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FB3DE627163FDB0091D1B1 /* SceneDelegate.swift */; };
 		F7FB3DEC27163FDB0091D1B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7FB3DEA27163FDB0091D1B1 /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4467C215299AE75700496AC5 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		4467C217299AE76300496AC5 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		4467C21A299AE9AE00496AC5 /* Person Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person Controller.swift"; sourceTree = "<group>"; };
+		4467C21C299AEEB700496AC5 /* Group Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Group Controller.swift"; sourceTree = "<group>"; };
 		F7FB3DE127163FDB0091D1B1 /* AddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FB3DE427163FDB0091D1B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7FB3DE627163FDB0091D1B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +50,24 @@
 				F7FB3DEF27163FDE0091D1B1 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4467C219299AE76A00496AC5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4467C215299AE75700496AC5 /* Person.swift */,
+				4467C217299AE76300496AC5 /* Group.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4467C21E299AEEC200496AC5 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4467C21C299AEEB700496AC5 /* Group Controller.swift */,
+				4467C21A299AE9AE00496AC5 /* Person Controller.swift */,
+			);
+			path = "Model Controllers";
 			sourceTree = "<group>";
 		};
 		F7040FF52716526500B913AC /* Resourses */ = {
@@ -74,7 +100,9 @@
 		F7FB3DE327163FDB0091D1B1 /* AddressBook */ = {
 			isa = PBXGroup;
 			children = (
+				4467C21E299AEEC200496AC5 /* Model Controllers */,
 				4109F6CF2833DDC500FD585D /* Storyboards */,
+				4467C219299AE76A00496AC5 /* Models */,
 				F7040FF52716526500B913AC /* Resourses */,
 			);
 			path = AddressBook;
@@ -151,8 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4467C21B299AE9AE00496AC5 /* Person Controller.swift in Sources */,
+				4467C216299AE75700496AC5 /* Person.swift in Sources */,
 				F7FB3DE527163FDB0091D1B1 /* AppDelegate.swift in Sources */,
 				F7FB3DE727163FDB0091D1B1 /* SceneDelegate.swift in Sources */,
+				4467C21D299AEEB700496AC5 /* Group Controller.swift in Sources */,
+				4467C218299AE76300496AC5 /* Group.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
