@@ -11,6 +11,10 @@
 		4467C218299AE76300496AC5 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4467C217299AE76300496AC5 /* Group.swift */; };
 		4467C21B299AE9AE00496AC5 /* Person Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4467C21A299AE9AE00496AC5 /* Person Controller.swift */; };
 		4467C21D299AEEB700496AC5 /* Group Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4467C21C299AEEB700496AC5 /* Group Controller.swift */; };
+		4467C220299AF98700496AC5 /* PersonListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4467C21F299AF98700496AC5 /* PersonListTableViewController.swift */; };
+		4467C222299AF99900496AC5 /* GrouplistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4467C221299AF99900496AC5 /* GrouplistTableViewController.swift */; };
+		4467C225299AF9E400496AC5 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4467C224299AF9E400496AC5 /* ContactViewController.swift */; };
+		4467C228299B036400496AC5 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4467C227299B036400496AC5 /* GroupTableViewCell.swift */; };
 		F7FB3DE527163FDB0091D1B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FB3DE427163FDB0091D1B1 /* AppDelegate.swift */; };
 		F7FB3DE727163FDB0091D1B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FB3DE627163FDB0091D1B1 /* SceneDelegate.swift */; };
 		F7FB3DEC27163FDB0091D1B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7FB3DEA27163FDB0091D1B1 /* Main.storyboard */; };
@@ -23,6 +27,10 @@
 		4467C217299AE76300496AC5 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		4467C21A299AE9AE00496AC5 /* Person Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person Controller.swift"; sourceTree = "<group>"; };
 		4467C21C299AEEB700496AC5 /* Group Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Group Controller.swift"; sourceTree = "<group>"; };
+		4467C21F299AF98700496AC5 /* PersonListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListTableViewController.swift; sourceTree = "<group>"; };
+		4467C221299AF99900496AC5 /* GrouplistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrouplistTableViewController.swift; sourceTree = "<group>"; };
+		4467C224299AF9E400496AC5 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		4467C227299B036400496AC5 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
 		F7FB3DE127163FDB0091D1B1 /* AddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FB3DE427163FDB0091D1B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7FB3DE627163FDB0091D1B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,10 +72,37 @@
 		4467C21E299AEEC200496AC5 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4467C226299AF9F700496AC5 /* ModelControllers */,
+				4467C223299AF9A400496AC5 /* View Controllers */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		4467C223299AF9A400496AC5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4467C229299B0BDA00496AC5 /* Table View Controllers */,
+				4467C227299B036400496AC5 /* GroupTableViewCell.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4467C226299AF9F700496AC5 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
 				4467C21C299AEEB700496AC5 /* Group Controller.swift */,
 				4467C21A299AE9AE00496AC5 /* Person Controller.swift */,
 			);
-			path = "Model Controllers";
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		4467C229299B0BDA00496AC5 /* Table View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4467C21F299AF98700496AC5 /* PersonListTableViewController.swift */,
+				4467C221299AF99900496AC5 /* GrouplistTableViewController.swift */,
+			);
+			path = "Table View Controllers";
 			sourceTree = "<group>";
 		};
 		F7040FF52716526500B913AC /* Resourses */ = {
@@ -104,6 +139,7 @@
 				4109F6CF2833DDC500FD585D /* Storyboards */,
 				4467C219299AE76A00496AC5 /* Models */,
 				F7040FF52716526500B913AC /* Resourses */,
+				4467C224299AF9E400496AC5 /* ContactViewController.swift */,
 			);
 			path = AddressBook;
 			sourceTree = "<group>";
@@ -180,11 +216,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4467C21B299AE9AE00496AC5 /* Person Controller.swift in Sources */,
+				4467C222299AF99900496AC5 /* GrouplistTableViewController.swift in Sources */,
 				4467C216299AE75700496AC5 /* Person.swift in Sources */,
 				F7FB3DE527163FDB0091D1B1 /* AppDelegate.swift in Sources */,
+				4467C220299AF98700496AC5 /* PersonListTableViewController.swift in Sources */,
+				4467C225299AF9E400496AC5 /* ContactViewController.swift in Sources */,
 				F7FB3DE727163FDB0091D1B1 /* SceneDelegate.swift in Sources */,
 				4467C21D299AEEB700496AC5 /* Group Controller.swift in Sources */,
 				4467C218299AE76300496AC5 /* Group.swift in Sources */,
+				4467C228299B036400496AC5 /* GroupTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
